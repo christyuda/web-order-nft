@@ -18,7 +18,7 @@ import '../module/menu/view/list_menu.dart';
 import '../module/person/view/create_new_user.dart';
 import '../module/person/view/index_user.dart';
 import '../module/role/view/create_role.dart';
-import '../module/ticket/view/create_ticket.dart';
+// import '../module/ticket/view/create_ticket.dart';
 import '../module/workflow/view/create_kategori_workflow.dart';
 import '../module/workflow/view/create_workflow_node.dart';
 import '../module/workflow/view/create_workflow_type.dart';
@@ -31,7 +31,7 @@ final List<PageRoute> pageRoutes = [
   PageRoute(pagename: 'listmenu', routes: FormListMenu()),
   PageRoute(pagename: 'listUser', routes: FormListUser()),
   PageRoute(pagename: 'listOrders', routes: TransactionsListOrder()),
-  PageRoute(pagename: 'createTicket', routes: FormCreateTicket()),
+  // PageRoute(pagename: 'createTicket', routes: FormCreateTicket()),
   PageRoute(pagename: 'createUser', routes: FormCreateNewUser()),
   PageRoute(pagename: 'createRole', routes: FormCreateRole()),
   PageRoute(pagename: 'createKategori', routes: FormCreateKategori()),
