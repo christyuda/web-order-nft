@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           onGenerateRoute: (settings) =>
               router.generateRoute(settings, currentDomain),
-          initialRoute: '/',
+          initialRoute: '/backoffice',
           builder: EasyLoading.init(),
         ),
       ),
