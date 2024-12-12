@@ -16,7 +16,7 @@ import '../module/main/provider/main_provider.dart';
 import '../module/menu/provider/menu_provider.dart';
 import '../module/person/provider/user_provider.dart';
 import '../module/role/provider/role_provider.dart';
-import '../module/ticket/provider/ticket_provider.dart';
+// import '../module/ticket/provider/ticket_provider.dart';
 import '../module/workflow/provider/workflow_provider.dart';
 
 List<SingleChildStatelessWidget> providers = [
@@ -31,7 +31,7 @@ List<SingleChildStatelessWidget> independentServices = [
   ChangeNotifierProvider(create: (context) => MainProvider()),
   ChangeNotifierProvider(create: (context) => GeneralProv()),
   ChangeNotifierProvider(create: (context) => LoginProvider()),
-  ChangeNotifierProvider(create: (context) => TicketProvider()),
+  // ChangeNotifierProvider(create: (context) => TicketProvider()),
   ChangeNotifierProvider(create: (context) => UserProvider()),
   ChangeNotifierProvider(create: (context) => RoleProvider()),
   ChangeNotifierProvider(create: (context) => WorkflowProvider()),
